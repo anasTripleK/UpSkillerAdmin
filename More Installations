@@ -1,0 +1,6 @@
+// bcrypt library
+npm install bcrypt --save-g
+// Install Joi
+npm install @hapi/Joi
+// Install JWT
+npm install jsonwebtoken

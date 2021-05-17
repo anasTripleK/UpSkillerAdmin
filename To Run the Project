@@ -1,0 +1,9 @@
+// git clone ProjectLink
+// npm install
+// ==== ABOVE COMMAND to by pass all the below commands ====
+// npm i express
+// npm i morgan
+// npm i mongoose
+// npm i jsonwebtoken
+// npm i --save-dev nodemon
+// npm run dev (finally start the server)

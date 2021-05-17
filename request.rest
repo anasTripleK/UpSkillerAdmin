@@ -1,0 +1,67 @@
+POST http://localhost:5000/defect/addDefect
+Content-Type: application/json
+
+{
+    "name":"comments",
+    "weight":"1"
+}
+
+###
+POST http://localhost:5000/user/addUser
+Content-Type: application/json
+
+{
+    "username":"userOne",
+    "password":"123456",
+    "role":"user"
+}
+
+###
+POST http://localhost:5000/user/Login
+Content-Type: application/json
+
+# {
+#     "username":"userTwoLead",
+#     "password":"123456"
+# }
+{
+    "username":"upskillerAdmin",
+    "password":"123456"
+}
+# {
+#     "username":"testUserHamza",
+#     "password":"123456"
+# }
+
+###
+POST http://localhost:5000/logout
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5udSIsImlhdCI6MTYxNjU4NTYwMn0.I1YqqnNwxS_XrZzwJU-o0IENhmAbrsuITO_5EDoYqxo"
+}
+
+###
+# POST http://localhost:4000/token
+# Content-Type: application/json
+
+# {
+#     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5udSIsImlhdCI6MTYxNjU4NTYwMn0.I1YqqnNwxS_XrZzwJU-o0IENhmAbrsuITO_5EDoYqxo"
+# }
+// Below Request in RestMan
+ /*
+ POST:http://localhost:5000/defect/addDefect
+ --
+ Headers
+ --
+content-type application/json
+x-auth-token token
+-
+Body
+--
+{
+    "username":"xyz",
+    "password":"123pfoifjdf",
+    "role":"user"
+}
+*/

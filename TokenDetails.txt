@@ -1,0 +1,16 @@
+-> Token Generated@Login.
+-> Token Sent Back, expires In 60 minutes.
+-> Token Contains(Payroll of [Id] & [role]).
+-> Token will be sent with the request requiring access to other pages(not login page).
+-> Each time Token will be sent for request, role will be checked and Token will be verified.
+-> Each time token will be refreshed for each of the request if access grants to the person.
+-> Each time accessAllowed will be checked, if role is 'user'
+  // === Structure of Token ===
+  // decoded-object contains below
+  /*
+  {
+    user: {id: '1319646413134dsadasf4af78a7', role: 'USER', accessAllowed: true},
+    iat: 1616765449,
+    exp: 1616765509
+  }
+  */
